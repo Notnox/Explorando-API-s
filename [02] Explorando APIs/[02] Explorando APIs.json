@@ -1,0 +1,86 @@
+{
+    "pedido": [
+        {
+            "id": "1",
+            "cliente": {
+                "apelidoCliente": "Notnox",
+                "localizadorCelular": true,
+                "contato": 48991899189,
+                "modalidadeDePagamentoCadastradas": [
+                    {
+                        "id": 1,
+                        "tipo": "Crédito",
+                        "cartão": "5454 **** **** ****",
+                        "vencimentoDoCartão": "12-32",
+                        "codigoDeSegurança": 748,
+                        "nomeEscritoNoCartão": "Antonio Carlos",
+                        "númeroCPF": 75315985245,
+                        "modalidadePrincipal": true
+                    }
+                ]
+            },
+            "endereço": [
+                {
+                    "id": 1,
+                    "logradouro": "Rua",
+                    "nomeLogradouro": "Das Rosas",
+                    "número": 1456,
+                    "bairro": "João Carlos",
+                    "cidade": "São José",
+                    "estado": "Santa Catarina",
+                    "país": "Brasil",
+                    "endereçoPrincipal": true
+                },
+                {
+                    "id": 2,
+                    "logradouro": "Avenida",
+                    "nomeLogradouro": "Antonio Ferreira",
+                    "número": 2000,
+                    "bairro": "Ribeirão",
+                    "cidade": "Palhoça",
+                    "estado": "Santa Catarina",
+                    "país": "Brasil",
+                    "endereçoPrincipal": false
+                }
+            ],
+            "carrinho": {
+                "categoria": [
+                    {
+                        "Mercado": {
+                            "fornecedor": {
+                                "apelidoFornecedor": "Supermercado BIG",
+                                "produtos": [
+                                    {
+                                        "id": 1,
+                                        "características": {
+                                            "descrição": "Sabão de coco",
+                                            "marca": "OMO",
+                                            "preçoUnidade": 25,
+                                            "moeda": "real"
+                                        },
+                                        "quantidadeSolicitada": 4
+                                    },
+                                    {
+                                        "id": 2,
+                                        "características": {
+                                            "descrição": "Arroz integral",
+                                            "marca": "Tio zé",
+                                            "preçoUnidade": 50,
+                                            "moeda": "real"
+                                        },
+                                        "quantidadeSolicitada": 1
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "valorFinal": {
+                    "taxaDeEntrega": 0,
+                    "preçoFinal": 150,
+                    "moeda": "real"
+                }
+            }
+        }
+    ]
+}
