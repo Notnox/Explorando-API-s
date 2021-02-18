@@ -1,0 +1,73 @@
+<pedido id='1'>
+    <cliente>
+        <apelidoCliente>Notnox</apelidoCliente>
+        <localizadorCelular>true</localizadorCelular>
+        <contato>48991899189</contato>
+        <modalidadeDePagamentoCadastradas>
+            <modalidade id='1'>
+                <tipo>Crédito</tipo>
+                <cartão>5454 **** **** ****</cartão>
+                <vencimentoDoCartão>12/32</vencimentoDoCartão>
+                <codigoDeSegurança>748</codigoDeSegurança>
+                <nomeEscritoNoCartão>Antonio Carlos</nomeEscritoNoCartão>
+                <númeroCPF>75315985245<númeroCPF>
+                    <modalidadePrincipal>true</modalidadePrincipal>
+                    <modalidade>
+                    </modalidadeDePagamentoCadastradas>
+                </cliente>
+                <endereço>
+                    <endereçoCadastro id='1'>
+                        <logradouro>Rua</logradouro>
+                        <nomeLogradouro>Das Rosas</nomeLogradouro>
+                        <número>1456</número>
+                        <bairro>João Carlos</bairro>
+                        <cidade>São José</cidade>
+                        <estado>Santa Catarina</estado>
+                        <país>Brasil</país>
+                        <endereçoPrincipal>true</endereçoPrincipal>
+                    </endereçoCadastro>
+                    <endereçoCadastro id='2'>
+                        <logradouro>Avenida</logradouro>
+                        <nomeLogradouro>Antonio Ferreira</nomeLogradouro>
+                        <número>2000</número>
+                        <bairro>Ribeirão</bairro>
+                        <cidade>Palhoça</cidade>
+                        <estado>Santa Catarina</estado>
+                        <país>Brasil</país>
+                        <endereçoPrincipal>false</endereçoPrincipal>
+                    </endereçoCadastro>
+                </endereço>
+                <carrinho>
+                    <categoria>
+                        <categoriaNome>Mercado</categoriaNome>
+                        <fornecedor>
+                            <apelidoFornecedor>Supermercado BIG</apelidoFornecedor>
+                            <produtos>
+                                <produto id='1'>
+                                    <características>
+                                        <descrição>Sabão de coco</descrição>
+                                        <marca>OMO</marca>
+                                        <preçoUnidade>25</preçoUnidade>
+                                        <moeda>real</moeda>
+                                    </características>
+                                    <quantidadeSolicitada>4</quantidadeSolicitada>
+                                </produto>
+                                <produto id='2'>
+                                    <características>
+                                        <descrição>Arroz integral</descrição>
+                                        <marca>Tio zé</marca>
+                                        <preçoUnidade>50</preçoUnidade>
+                                        <moeda>real</moeda>
+                                    </características>
+                                    <quantidadeSolicitada>1</quantidadeSolicitada>
+                                </produto>
+                            </produtos>
+                        </fornecedor>
+                    </categoria>
+                    <valorFinal>
+                        <taxaDeEntrega>0</taxaDeEntrega>
+                        <preçoFinal>150</preçoFinal>
+                        <moeda>real</moeda>
+                    </valorFinal>
+                </carrinho>
+            </pedido>
